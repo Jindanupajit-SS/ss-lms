@@ -17,6 +17,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		 <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
+		<maven.test.skip>true</maven.test.skip>
 	</properties>
 
 	<dependencies>
@@ -27,10 +28,10 @@
     		<artifactId>spring-boot-starter-web</artifactId>
     		<version>2.2.4.RELEASE</version><!--$NO-MVN-MAN-VER$-->
 		</dependency>
-		<dependency>
-      		<groupId>org.springframework.cloud</groupId>
-      		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-    	</dependency>
+<!--		<dependency>-->
+<!--      		<groupId>org.springframework.cloud</groupId>-->
+<!--      		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
+<!--    	</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
@@ -64,13 +65,13 @@
 	
 	 <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-dependencies</artifactId>
-        <version>${spring-cloud.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
+<!--      <dependency>-->
+<!--        <groupId>org.springframework.cloud</groupId>-->
+<!--        <artifactId>spring-cloud-dependencies</artifactId>-->
+<!--        <version>${spring-cloud.version}</version>-->
+<!--        <type>pom</type>-->
+<!--        <scope>import</scope>-->
+<!--      </dependency>-->
     </dependencies>
   </dependencyManagement>
 
