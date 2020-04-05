@@ -75,7 +75,10 @@
     </dependencies>
   </dependencyManagement>
 
+	<packaging>jar</packaging>
+
 	<build>
+		<finalName>LMSAdministrator</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
